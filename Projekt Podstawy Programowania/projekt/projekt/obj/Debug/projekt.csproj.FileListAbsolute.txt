@@ -8,3 +8,12 @@ C:\Users\joann\OneDrive\Desktop\Podstawy programowania projekt\projekt\projekt\o
 C:\Users\joann\OneDrive\Desktop\Podstawy programowania projekt\projekt\projekt\obj\Debug\projekt.csproj.CoreCompileInputs.cache
 C:\Users\joann\OneDrive\Desktop\Podstawy programowania projekt\projekt\projekt\obj\Debug\projekt.exe
 C:\Users\joann\OneDrive\Desktop\Podstawy programowania projekt\projekt\projekt\obj\Debug\projekt.pdb
+C:\Users\joann\Documents\GitHub\UniAssignment\Projekt Podstawy Programowania\projekt\projekt\bin\Debug\projekt.exe.config
+C:\Users\joann\Documents\GitHub\UniAssignment\Projekt Podstawy Programowania\projekt\projekt\bin\Debug\projekt.exe
+C:\Users\joann\Documents\GitHub\UniAssignment\Projekt Podstawy Programowania\projekt\projekt\bin\Debug\projekt.pdb
+C:\Users\joann\Documents\GitHub\UniAssignment\Projekt Podstawy Programowania\projekt\projekt\obj\Debug\projekt.csprojAssemblyReference.cache
+C:\Users\joann\Documents\GitHub\UniAssignment\Projekt Podstawy Programowania\projekt\projekt\obj\Debug\projekt.Form1.resources
+C:\Users\joann\Documents\GitHub\UniAssignment\Projekt Podstawy Programowania\projekt\projekt\obj\Debug\projekt.Properties.Resources.resources
+C:\Users\joann\Documents\GitHub\UniAssignment\Projekt Podstawy Programowania\projekt\projekt\obj\Debug\projekt.csproj.GenerateResource.cache
+C:\Users\joann\Documents\GitHub\UniAssignment\Projekt Podstawy Programowania\projekt\projekt\obj\Debug\projekt.exe
+C:\Users\joann\Documents\GitHub\UniAssignment\Projekt Podstawy Programowania\projekt\projekt\obj\Debug\projekt.pdb
