@@ -93,3 +93,6 @@ C:\Users\joann\Documents\GitHub\UniAssignment\Projekt Podstawy Programowania\pro
 C:\Users\joann\Documents\GitHub\UniAssignment\Projekt Podstawy Programowania\projekt\projekt.UnitTests\bin\Debug\netcoreapp3.1\nunit.engine.dll
 C:\Users\joann\Documents\GitHub\UniAssignment\Projekt Podstawy Programowania\projekt\projekt.UnitTests\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
 C:\Users\joann\Documents\GitHub\UniAssignment\Projekt Podstawy Programowania\projekt\projekt.UnitTests\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
+C:\Users\joann\Documents\GitHub\UniAssignment\Projekt Podstawy Programowania\projekt\projekt.UnitTests\bin\Debug\netcoreapp3.1\projekt.UnitTests.pdb
+C:\Users\joann\Documents\GitHub\UniAssignment\Projekt Podstawy Programowania\projekt\projekt.UnitTests\obj\Debug\netcoreapp3.1\projekt.UnitTests.dll
+C:\Users\joann\Documents\GitHub\UniAssignment\Projekt Podstawy Programowania\projekt\projekt.UnitTests\obj\Debug\netcoreapp3.1\projekt.UnitTests.pdb

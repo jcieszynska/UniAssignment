@@ -23,57 +23,41 @@ namespace projekt
         
         private void poziom_Tick(object sender, EventArgs e)
         {
-            if (pilka.Left < 10)
-            {
-                poziomo++;
-            }
-            else if ( pilka.Left > this.Width-pilka.Width-25)
-            {
-                poziomo--;
-            }
+            if (pilka.Left < 10) 
+                poziomo++; 
+            else if ( pilka.Left > this.Width-pilka.Width-25) 
+                poziomo--; 
+
             pilka.Left += (poziomo * speed);
         }
-        bool lewo = false, prawo = false;
+        bool _lewo = false, _prawo = false;
         private void tmrDeska_Tick(object sender, EventArgs e)
         {
-            if ( prawo && deska.Left < (this.Width - deska.Width))
-            {
-                deska.Left += 25;
-            }
-            else if ( lewo && deska.Left > 0)
-            {
-                deska.Left -= 25;
-            }
+            if (_prawo && deska.Left < (this.Width - deska.Width))
+                deska.Left += 25; 
+            else if ( _lewo && deska.Left > 0)
+                deska.Left -= 25; 
+
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             if ( e.KeyCode==Keys.Left)
-            {
-                lewo = true;
-            }
+                _lewo = true;
             else if (e.KeyCode==Keys.Right)
-            {
-                prawo = true;
-            }
+                _prawo = true;
         }
 
         private void Form1_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyCode==Keys.Left || e.KeyCode==Keys.Right)
-            {
-                lewo = prawo = false;
-            }
-
+                _lewo = _prawo = false;
         }
 
         private void pion_Tick(object sender, EventArgs e)
-        {
-            
+        {          
             if(pilka.Top < 10 )
-            {
-                pionowo++;
-            }
+                pionowo++; 
             else if (pilka.Top > this.Height - pilka.Height - deska.Height - 35)
             {
                 if (pilka.Left<(deska.Left) || (pilka.Left + pilka.Width)>(deska.Left + deska.Width+5))
@@ -84,7 +68,6 @@ namespace projekt
 
                 pionowo--;
             }
-
             pilka.Top += (pionowo * speed);
 
             int _wynik = 0;
