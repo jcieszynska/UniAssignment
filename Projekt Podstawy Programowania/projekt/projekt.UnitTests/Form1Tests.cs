@@ -1,13 +1,13 @@
 ﻿using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace projekt.UnitTests
 {
     [TestFixture]
+
     class Form1Tests
     {
+
         [Test]
         [TestCase(1, 2)]
         [TestCase(2, 3)]
@@ -87,8 +87,15 @@ namespace projekt.UnitTests
             Assert.IsFalse(_prawo);
         }
         [Test]
-        public void Pion_Tick_WhenTheBallHitsTheGround_EndTheGame()
+        [TestCase(1,2)]
+        [TestCase(2,3)]
+        [TestCase(5,6)]
+        [TestCase(9,7)]
+        [TestCase(15,12)]
+
+        public void Pion_Tick_WhenTheBallHitsTheGround_EndTheGame(int a, int b, int expectedResult)
         {
+          
 
         }
 

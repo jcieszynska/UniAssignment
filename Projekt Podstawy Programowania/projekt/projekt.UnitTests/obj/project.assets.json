@@ -489,6 +489,15 @@
           "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
         }
       },
+      "NUnitForms.Framework/1.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/NUnitForms.dll": {}
+        }
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2337,6 +2346,18 @@
         "build/netcoreapp2.1/nunit.engine.dll",
         "nunit3testadapter.3.16.1.nupkg.sha512",
         "nunit3testadapter.nuspec"
+      ]
+    },
+    "NUnitForms.Framework/1.3.1": {
+      "sha512": "0W1+n3uCEnXyRWWeJ1A6w9oMh/Z9PV0UxQaCD4wv+oG1lGxdyQEe80ng1NHpMBz5Jkr6EDAo9eYENPUVNCw5Kg==",
+      "type": "package",
+      "path": "nunitforms.framework/1.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/NUnitForms.dll",
+        "nunitforms.framework.1.3.1.nupkg.sha512",
+        "nunitforms.framework.nuspec"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -5453,6 +5474,7 @@
       "NUnit >= 3.12.0",
       "NUnit.ConsoleRunner >= 3.11.1",
       "NUnit3TestAdapter >= 3.16.1",
+      "NUnitForms.Framework >= 1.3.1",
       "coverlet.collector >= 1.0.1"
     ]
   },
@@ -5526,6 +5548,12 @@
             "target": "Package",
             "version": "[3.16.1, )"
           },
+          "NUnitForms.Framework": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.3.1, )"
+          },
           "coverlet.collector": {
             "target": "Package",
             "version": "[1.0.1, )"
@@ -5549,5 +5577,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „NUnitForms.Framework 1.3.1” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8” zamiast platformy docelowej projektu „.NETCoreApp,Version=v3.1”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "libraryId": "NUnitForms.Framework",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
