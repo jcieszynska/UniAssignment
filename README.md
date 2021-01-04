@@ -65,7 +65,7 @@ Game over; disappearing boxes; the ability of movement of the ball:
 Project is: _finished_ 
 
 ## Inspiration
-Add here credits. Project based on the University of Gdańsk classes
+Project based on the University of Gdańsk classes
 
 ## Contact
 Created by [@jcieszynska](https://www.github.com/jcieszynska) - feel free to contact me!
